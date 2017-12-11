@@ -83,6 +83,29 @@ Test the app on an iOS 9 or 10 device:
 ionic cordova run ios
 ```
 
+Installation Instructions in natives app from cocoapod
+-------------------
+This plugin needs cordova-ios >4.0.0.
+
+To install the current release:
+
+    cordova create wkwvtest my.project.id wkwvtest
+    cd wkwvtest
+    cordova platform add ios@4
+    cordova plugin add cordova-plugin-wkwebview-engine
+
+To test the development version:
+
+    cordova create wkwvtest my.project.id wkwvtest
+    cd wkwvtest
+    cordova platform add https://github.com/apache/cordova-ios.git#master
+    cordova plugin add https://github.com/apache/cordova-plugin-wkwebview-engine.git#master
+
+You also must have at least Xcode 7 (iOS 9 SDK) installed. Check your Xcode version by running:
+
+    xcode-select --print-path
+
+View (https://github.com/apache/cordova-plugin-wkwebview-engine/blob/master/README.md) for more details (similar instructions)
 
 Required Permissions
 -------------------
