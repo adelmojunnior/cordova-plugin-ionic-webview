@@ -24,7 +24,7 @@
     <description>Ionic Web View Engine Plugin</description>
     <license>Apache-2.0</license>
     <keywords>cordova,wkwebview</keywords>
-    <repo>https://github.com/ionic-team/cordova-plugin-ionic-webview</repo>
+    <repo>https://github.com/adelmojunnior/cordova-plugin-ionic-webview</repo>
 
 	<engines>
         <engine name="cordova-ios" version=">=4.0.0-dev"/>
