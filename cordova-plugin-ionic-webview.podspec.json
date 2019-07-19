@@ -18,7 +18,7 @@
     "git": "https://github.com/adelmojunnior/cordova-plugin-ionic-webview.git",
     "tag": "2.5.1"
   },
-  "source_files": "src/ios/*.{h,m}",
+  "source_files": "src/ios/**/.{h,m}",
   "preserve_paths": [
     "*.md",
     "docs/**/*.md",
@@ -28,7 +28,7 @@
   "requires_arc": true,
   "dependencies": {
     "Cordova": [
-      ">= 4.3.0"
+      "~> 4.4.0"
     ]
   }
 }
