@@ -1,4 +1,4 @@
-## [4.1.3.1](https://github.com/ionic-team/cordova-plugin-ionic-webview/compare/v4.1.2...v4.1.3.1) (2019-10-30)
+## [4.1.4](https://github.com/ionic-team/cordova-plugin-ionic-webview/compare/v4.1.2...v4.1.4) (2019-10-30)
 
 
 ### Bug Fixes
